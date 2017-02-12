@@ -1,0 +1,45 @@
+	
+body
+{
+overflow: hidden;
+padding: 0;
+margin: 0;
+font-family: Times New Roman;
+}
+#gOver{
+position: fixed;
+top:20%;
+left: 30%;
+color: white;
+background: rgb(50,100,100);
+//padding: 10%;
+text-align: center;
+overflow: hidden;
+transition: 1s;
+height: 0px;
+//box-shadow: 0px 0px 5px 1px black;
+}
+.butn{
+width: 40%;
+height: 40px;
+margin: 10px;
+background: rgb(50,50,50);
+color: white;
+border-radius: 2px;
+border:0px solid black;
+margin-bottom:20px;
+transition: 0.2s;
+}
+.butn:hover{
+background: rgb(100,100,250);
+cursor: pointer;
+color: white;
+}
+#left_top{
+position: fixed;
+top: 0px;
+right: 0px;
+width: 200px;
+background: rgba(0,0,100,0.5);
+color: white;
+}
